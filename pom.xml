@@ -15,8 +15,14 @@
 	<description>simple</description>
 	<properties>
 		<java.version>11</java.version>
+		<spring.maven.artifact.version>5.3.6</spring.maven.artifact.version>
+		<apache.tiles.version>3.0.8</apache.tiles.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>

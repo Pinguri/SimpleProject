@@ -4,7 +4,7 @@ spring:
       driver-class-name: oracle.jdbc.driver.OracleDriver
       jdbc-url: dbc:oracle:thin:@localhost:1521:xe
       username: simple
-      password: simple
+      password: 1234
       maximum-pool-size: 10
       connection-timeout: 10000
       connection-test-query: SELECT 1 FROM DUAL
@@ -29,3 +29,7 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/**/**.xml
 
+server:
+  port: 8443
+  servlet:
+    context-path: /
