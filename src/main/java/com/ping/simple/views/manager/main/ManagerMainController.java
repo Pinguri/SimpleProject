@@ -22,7 +22,7 @@ public class ManagerMainController {
 
     @GetMapping(value="/main")
     public ModelAndView MainPage(@RequestParam Map<String, Object> params) {
-        return new ModelAndView("/manager/main/main");
+        return new ModelAndView("/manager/main/main.base");
     }
 
 }
